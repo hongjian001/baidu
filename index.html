@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+            name="viewport"
+            content="width=device-width,initial-scale=1,maximum-scale=1, minimum-scale=1,user-scalable=no"
+        />
+        <title>百度一下</title>
+        <link rel="stylesheet" href="base.css" />
+        <link rel="stylesheet" href="index.css" />
+        <link rel="stylesheet" href="icomoon/style.css" />
+    </head>
+    <body>
+        <!-- 登录弹窗 -->
+        <div class="sign_card">
+            <div class="del">
+                <a class="delete_icon"></a>
+            </div>
+            <div class="card_top">
+                <img src="images/百度logo.png" alt="百度logo.png" class="card_logo" />
+                <input type="text" value="请输入手机邮箱用户名" class="input_user" />
+                <input type="text" value="请输入正确密码" class="input_possword" />
+                <button class="sign_in">登录</button>
+            </div>
+            <a href="" class="forget_password">忘记密码?</a>
+            <div class="card_bottom">
+                <div class="icon_logo">
+                    <a href="" class="scan">扫描登录</a>
+                    <span class="split">|</span>
+                    <a href="" class="qq" title="QQ"></a>
+                    <a href="" class="xl" title="新浪微博"></a>
+                    <a href="" class="vx" title="微信"></a>
+                </div>
+                <a href="" class="logon">立即注册</a>
+            </div>
+        </div>
+        <!-- header -->
+        <header>
+            <div class="nav-left">
+                <a href="http://news.baidu.com/">新闻</a>
+                <a href="https://www.hao123.com">hao123</a>
+                <a href="http://map.baidu.com">地图</a>
+                <a href="https://live.baidu.com/">直播</a>
+                <a href="https://haokan.baidu.com/?sfrom=baidu-top">视频</a>
+                <a href="http://tieba.baidu.com">贴吧</a>
+                <a href="http://xueshu.baidu.com">学术</a>
+                <a href="http://www.baidu.com/more/">更多</a>
+            </div>
+            <div class="nav-right">
+                <span class="set">设置</span>
+                <button class="btn">登录</button>
+            </div>
+            <!-- 设置的选项 -->
+            <div class="set-show" id="setShow">
+                <div class="show_no">
+                    <a href="javascript:;">搜索设置</a>
+                    <a href="//www.baidu.com/gaoji/advanced.html">开启预测</a>
+                    <a href="javascript:;">隐私设置</a>
+                    <a href="https://www.baidu.com/duty/privacysettings.html">关闭热榜</a>
+                    <a href="javascript:;">开启热榜</a>
+                </div>
+            </div>
+        </header>
+        <!-- container -->
+        <div class="container">
+            <div class="logo">
+                <img src="images/百度logo.png" alt="" />
+            </div>
+            <div class="search">
+                <div class="camera_icon">
+                    <i class="camera"></i>
+                </div>
+                <div class="camera_card">按图片搜索</div>
+                <input type="text" class="input_search" />
+                <button class="btn_search">百度一下</button>
+            </div>
+            <div class="news">
+                <div class="new_top">
+                    <span>百度搜索</span>
+                    <div class="replace">
+                        <span class="icon-uniE900"></span>
+                        <span>换一换</span>
+                    </div>
+                </div>
+                <div class="hot_news">
+                    <ul class="news_left">
+                        <li>
+                            <span class="first_color">1</span>
+                            <a
+                                href="https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=%E5%85%A8%E5%9B%BD%E6%96%B0%E5%86%A0%E7%96%AB%E8%8B%97%E6%8E%A5%E7%A7%8D%E5%89%82%E6%AC%A1%E8%B6%857%E4%BA%BF&rsv_idx=2&rsv_dl=fyb_n_homepage&hisfilter=1"
+                            >
+                                全国新冠疫苗接种剂次超7亿
+                            </a>
+                            <span class="hot">热</span>
+                        </li>
+                        <li>
+                            <span class="tow_color">2</span>
+                            <a
+                                href="https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=%E5%90%B8%E5%85%A5%E5%BC%8F%E6%96%B0%E5%86%A0%E7%96%AB%E8%8B%97%E6%AD%A3%E5%9C%A8%E7%94%B3%E8%AF%B7%E7%B4%A7%E6%80%A5%E4%BD%BF%E7%94%A8&rsv_idx=2&rsv_dl=fyb_n_homepage&hisfilter=1"
+                            >
+                                吸入式新冠疫苗正在申请紧急使用
+                            </a>
+                            <span class="new">新</span>
+                        </li>
+                        <li>
+                            <span class="three_color">3</span>
+                            <a
+                                href="https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=%E5%B9%BF%E5%B7%9E%E6%A0%B8%E9%85%B8%E6%8E%92%E6%9F%A5%E5%B7%B2%E5%8F%91%E7%8E%B0%E9%98%B3%E6%80%A729%E4%BA%BA&rsv_idx=2&rsv_dl=fyb_n_homepage&hisfilter=1"
+                            >
+                                广州核酸排查已发现阳性29人
+                            </a>
+                            <span></span>
+                        </li>
+                    </ul>
+                    <ul class="news_right">
+                        <li>
+                            <span class="news_color">4</span>
+                            <a
+                                href="https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=%E7%86%9F%E8%9B%8B%E8%BF%94%E7%94%9F%E4%BD%9C%E8%80%85%E7%8E%B0%E8%BA%AB%E7%89%B9%E5%BC%82%E5%8A%9F%E8%83%BD%E5%9F%B9%E8%AE%AD%E4%BC%9A&rsv_idx=2&rsv_dl=fyb_n_homepage&hisfilter=1"
+                            >
+                                熟蛋返生作者现身特异功能培训会
+                            </a>
+                            <span></span>
+                        </li>
+                        <li>
+                            <span class="news_color">5</span>
+                            <a
+                                href="https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=%E4%BA%91%E5%8D%97%E2%80%9C%E5%A0%B5%E8%B1%A1%E4%BA%BA%E2%80%9D4%E5%A4%A9%E5%90%83%E4%BD%8F%E5%9C%A8%E8%BD%A6%E4%B8%8A&rsv_idx=2&rsv_dl=fyb_n_homepage&hisfilter=1"
+                            >
+                                云南“堵象人”4天吃住在车上
+                            </a>
+                            <span></span>
+                        </li>
+                        <li>
+                            <span class="news_color">6</span>
+                            <a
+                                href="https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=%E6%B8%85%E5%8D%8E%E5%8C%97%E5%A4%A7%E4%BD%8D%E5%88%97%E4%BA%9A%E6%B4%B2%E5%A4%A7%E5%AD%A6%E6%8E%92%E5%90%8D%E5%89%8D%E4%BA%8C&rsv_idx=2&rsv_dl=fyb_n_homepage&hisfilter=1"
+                            >
+                                清华北大位列亚洲大学排名前二
+                            </a>
+                            <span></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer>
+            <ul class="footer_set">
+                <li><a href="//www.baidu.com/cache/setindex/index.html">设为首页</a></li>
+                <li><a href="//home.baidu.com">关于百度</a></li>
+                <li><a href="http://ir.baidu.com">About Baidu</a></li>
+                <li><a href="//www.baidu.com/duty">使用百度前必读</a></li>
+                <li><a href="//help.baidu.com/newadd?prod_id=1&category=4">意见反馈</a></li>
+                <li><a href="//help.baidu.com">帮助中心</a></li>
+                <li>
+                    <a
+                        href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001"
+                    >
+                        京公网安备11000002000001号
+                    </a>
+                </li>
+                <li><a href="https://beian.miit.gov.cn">京ICP证030173号</a></li>
+                <li><a href="#">©2021 Baidu</a></li>
+                <li><a href="#">(京)-经营性-2017-0020</a></li>
+                <li><a href="#">信息网络传播视听节目许可证 0110516</a></li>
+            </ul>
+        </footer>
+
+        <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
